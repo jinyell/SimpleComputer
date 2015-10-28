@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>helpIcon.png</file>
+        <file>loadFile.png</file>
+        <file>saveFile.png</file>
+        <file>koj.png</file>
+        <file>kojin.ico</file>
+    </qresource>
+</RCC>
