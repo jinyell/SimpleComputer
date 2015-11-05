@@ -16,14 +16,14 @@
   <property name="styleSheet">
    <string notr="true">QDialog {
 color: #7DFDFE; 
-background-color: #333333;
+background-image: url(:/Images/BackgroundHelp.png);
 border: 2px solid #05565F;
 }
 
 QPlainTextEdit {
-background-color: #222222;
-border: 1px solid #7DFDFE;
-color: #32CD32;
+background: transparent;
+border: 1px solid #42DCEE;
+color: #42DCEE;
 }
 
 QPushButton{

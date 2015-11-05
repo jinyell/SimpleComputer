@@ -8,6 +8,7 @@ LoadDialog::LoadDialog(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::LoadDialog)
 {
+    this->setFixedSize(412, 312);
     ui->setupUi(this);
 }
 
@@ -35,7 +36,7 @@ void LoadDialog::on_okBtn_clicked()
     foreach(QRadioButton* le, findChildren<QRadioButton*>()) {
         if(le->isChecked()) {
             if(le->text() != "Use My Own File")
-                fileName = le->text() + ".txt";
+                fileName = ":/ProgramFiles/" + le->text() + ".txt";
             break;
         }
     }
