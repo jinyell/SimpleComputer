@@ -35,3 +35,5 @@ DISTFILES += \
 
 RESOURCES += \
     myres.qrc
+
+ICON = EmulatorIcon.icns

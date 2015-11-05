@@ -24,23 +24,23 @@
   </property>
   <property name="styleSheet">
    <string notr="true">QMainWindow {
-background-color: #222222;
+background-image: url(:/Images/Background.png);
 }
 
 QMenuBar {
-background-color: #222222;
+background: transparent;
 padding: 5px;
 color: #B0E0E6;
 }
 
 QMenuBar::item{
-background-color: #222222;
+background: transparent;
 padding: 5px;
 color: #B0E0E6;
 }
 
 QMenu {
-background-color: #222222;
+background: transparent;
 }</string>
   </property>
   <widget class="QWidget" name="centralWidget">
@@ -63,31 +63,31 @@ background-color: #222222;
     </property>
     <property name="styleSheet">
      <string notr="true">QGroupBox {
-color: #7DFDFE; 
-background-color: #333333;
-border: 2px solid #05565F;
+color: #F0A355; 
+background: transparent;
+border: 2px solid #4D5464;
 }
 
 QLabel { 
 background-color : transparent; 
-color : #7DFDFE; 
+color : #CCCCFF; 
 }
 
 QLineEdit{
 background-color: #4D5464;
-border: 1px solid #2B406B;
+border: 1px solid #CCCCFF;
 color: #FFFFFF;
 }
 
 QPushButton{
 background-color: #222222;
-color: #7DFDFE; 
-border: 1px solid #7DFDFE;
+color: #CCCCFF; 
+border: 1px solid #CCCCFF;
 }
 
 QPushButton:hover { 
-color: #7DAFAF;
-border: 1px solid #FF8533;
+color: #68CE58;
+border: 1px solid #55F0C7;
 }
 </string>
     </property>
@@ -531,31 +531,31 @@ border: 1px solid #FF8533;
     </property>
     <property name="styleSheet">
      <string notr="true">QGroupBox {
-color: #7DFDFE; 
-background-color: #333333;
-border: 2px solid #05565F;
+color: #F0A355; 
+background: transparent;
+border: 2px solid #CCCCFF;
 }
 
 QLabel { 
 background-color : transparent; 
-color : #7DFDFE; 
+color : #CCCCFF; 
 }
 
 QLineEdit{
 background-color: #4D5464;
-border: 1px solid #2B406B;
+border: 1px solid #CCCCFF;
 color: #FFFFFF;
 }
 
 QPushButton{
 background-color: #222222;
-color: #7DFDFE; 
-border: 1px solid #7DFDFE;
+color: #CCCCFF; 
+border: 1px solid #CCCCFF;
 }
 
 QPushButton:hover { 
-color: #7DAFAF;
-border: 1px solid #FF8533;
+color: #68CE58;
+border: 1px solid #55F0C7;
 }
 </string>
     </property>
@@ -3215,31 +3215,31 @@ border: 1px solid #FF8533;
     </property>
     <property name="styleSheet">
      <string notr="true">QGroupBox {
-color: #7DFDFE; 
-background-color: #333333;
-border: 2px solid #05565F;
+color: #F0A355; 
+background: transparent;
+border: 2px solid #4D5464;
 }
 
 QLabel { 
 background-color : transparent; 
-color : #7DFDFE; 
+color : #CCCCFF; 
 }
 
 QLineEdit{
 background-color: #4D5464;
-border: 1px solid #2B406B;
+border: 1px solid #CCCCFF;
 color: #FFFFFF;
 }
 
 QPushButton{
 background-color: #222222;
-color: #7DFDFE; 
-border: 1px solid #7DFDFE;
+color: #CCCCFF; 
+border: 1px solid #CCCCFF;
 }
 
 QPushButton:hover { 
-color: #7DAFAF;
-border: 1px solid #FF8533;
+color: #68CE58;
+border: 1px solid #55F0C7;
 }
 </string>
     </property>
@@ -3445,31 +3445,31 @@ border: 1px solid #FF8533;
     </property>
     <property name="styleSheet">
      <string notr="true">QGroupBox {
-color: #7DFDFE; 
-background-color: #333333;
-border: 2px solid #05565F;
+color: #F0A355; 
+background: transparent;
+border: 2px solid #4D5464;
 }
 
 QLabel { 
 background-color : transparent; 
-color : #7DFDFE; 
+color : #CCCCFF; 
 }
 
 QLineEdit{
 background-color: #4D5464;
-border: 1px solid #2B406B;
+border: 1px solid #CCCCFF;
 color: #FFFFFF;
 }
 
 QPushButton{
 background-color: #222222;
-color: #7DFDFE; 
-border: 1px solid #7DFDFE;
+color: #CCCCFF; 
+border: 1px solid #CCCCFF;
 }
 
 QPushButton:hover { 
-color: #7DAFAF;
-border: 1px solid #FF8533;
+color: #68CE58;
+border: 1px solid #55F0C7;
 }
 </string>
     </property>
@@ -3889,30 +3889,30 @@ border: 1px solid #FF8533;
     </property>
     <property name="styleSheet">
      <string notr="true">QGroupBox {
-color: #ADADAD; 
-border: 3px solid #17A0AF;
+color: #F0A355; 
+border: 3px solid #4D5464;
 }
 
 QLabel { 
 background-color : transparent; 
-color : #7DFDFE; 
+color : #CCCCFF; 
 }
 
 QLineEdit{
 background-color: transparent;
-border: 1px solid #7DFDFE;
+border: 1px solid #CCCCFF;
 color: #FFFFFF;
 }
 
 QPushButton{
 background-color: #222222;
-color: #7DFDFE; 
-border: 1px solid #7DFDFE;
+color: #CCCCFF; 
+border: 1px solid #CCCCFF;
 }
 
 QPushButton:hover { 
-color: #7DAFAF;
-border: 1px solid #FF8533;
+color: #68CE58;
+border: 1px solid #55F0C7;
 }
 </string>
     </property>
